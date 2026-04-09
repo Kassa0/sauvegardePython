@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Fichiers sensibles — NE JAMAIS COMMIT
+*.enc
+*.key
+cles/
+quarantine/
+
+# Fichiers générés à l'exécution
+*.log
+backup.log
+restore.log
+
+# OS
+.DS_Store
+Thumbs.db
